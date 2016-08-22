@@ -49,14 +49,6 @@ blockquote {
 	color: #ffcc01;
 }*/
 
-.home button{
-	background-color: #ffcc01;
-}
-.home button:hover{
-	background-color: #222;
-	color: #fff;
-}
-
 h2.entry-title a:hover{
 	color: #ee3b24;
 }

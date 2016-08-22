@@ -629,7 +629,19 @@ blockquote p{
 a.scrolbot{
 	position: absolute;
 	top: 80%;
-	left: 90%;
+	left: 50%;
+	border-radius: 100%;
+	padding: 5px;
+	font-size: 22px;
+	width: 36px;
+	height: 36px;
+	background: #ffcc01;
+	border: 2px solid transparent;
+	color: #fff;
+	opacity: .5;
+}
+a.scrolbot:hover{
+	opacity: 1;
 }
 /*.botscroll{
 	position: absolute;
