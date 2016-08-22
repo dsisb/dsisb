@@ -21,7 +21,8 @@ a.read-more:hover{
 }
 
 .btn.btn-primary:hover{
-	background: #ee3b24;
+	background: #ffcc01;
+	color: black;
 }
 
 .btn.btn-primary.solid{
@@ -44,8 +45,16 @@ blockquote {
 /* Common styles
 ================================================== */
 	
-.heading:hover .title-icon{
+/*.heading:hover .title-icon{
 	color: #ffcc01;
+}*/
+
+.home button{
+	background-color: #ffcc01;
+}
+.home button:hover{
+	background-color: #222;
+	color: #fff;
 }
 
 h2.entry-title a:hover{
@@ -86,8 +95,11 @@ h2.entry-title a:hover{
 /* Input form */
 
 .form-control:focus{
-	border: 1px solid #ee3b24 !important;
+	border: 1px solid #ffcc01 !important;
+
 }
+
+
 
 /* Flex Slider */
 

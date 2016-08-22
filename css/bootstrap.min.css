@@ -99,7 +99,7 @@ legend {
 	border:0
 }
 button, input, select, textarea {
-	margin:0;
+	margin:14px;
 	font-family:inherit;
 	font-size:100%
 }

@@ -599,6 +599,53 @@ blockquote p{
 	border-radius: 0;
 }
 
+.opt-select select{
+	box-shadow: none;
+	
+	padding: 6px 20px;
+	height: 50px;
+	background: none;
+	color: #959595;
+	font-size: 14px;
+	border-radius: 0;
+	border:1px solid rgba(255, 255, 255, .1);
+	width: 100%;
+	outline-color: #ffcc01; 
+
+}
+
+.opt-select select option:hover{
+	background: #ffcc01;
+}
+
+.reqbtn button{
+	border: none;
+	margin-top: 12px;
+	position: absolute;
+	top: 100%;
+	left: 83%;
+}
+
+a.scrolbot{
+	position: absolute;
+	top: 80%;
+	left: 90%;
+}
+/*.botscroll{
+	position: absolute;
+	top: 80%;
+	left: 80%;
+	width: 300px;
+	height: 100px;
+}*/
+
+/*.botscroll button{
+	background-color: transparent;
+	border:none;
+	outline: none;
+	color: #ffcc01;
+}*/
+
 .form-control:focus{
 	box-shadow: none;
 }
@@ -1851,6 +1898,10 @@ figure.effect-oscar:hover img {
 	background: #325c94;
 }
 
+.team-social a.ig:hover{
+	background: #517fa4;
+}
+
 .team-social a.twt:hover{
 	background: #00abdc;
 }
@@ -2205,7 +2256,7 @@ figure.effect-oscar:hover img {
 .clients{
 	
 	padding-bottom: 80px;
-	background-image: url("../images/team/bg2img2.png");
+	background-image: url("../images/team/bg2img.png");
 	background-position: bottom;
 	background-size: 1440px;
 	background-repeat: no-repeat;
@@ -2344,6 +2395,17 @@ figure.effect-oscar:hover img {
 }
 
 .footer-logo{
+	margin-bottom: 20px; 
+}
+.teamrow2{
+	margin-top: 20px;
+}
+
+.mem-heading{
+	margin-top: 60px;
+}
+.board-members{
+	margin-left: 100px;
 	margin-bottom: 20px;
 }
 
@@ -2512,12 +2574,12 @@ ul.arrow li:before {
 .copyright.angle:before{
 	background: #191919;
 	height: 50px;
-  	top: -25px;
+  	top: -15px;
   	-webkit-transform: skew(0deg,-2deg);
   	-moz-transform: skew(0deg,-2deg);
   	-ms-transform: skewX(0deg) skewY(-2deg);
   	-o-transform: skew(0deg,-2deg);
-  	transform: skew(0deg,-2deg);
+  	transform: skew(0deg,-0.5deg);
 }
 
 .footer-social{

@@ -315,3 +315,19 @@ jQuery(function($) {
       $('#back-to-top').tooltip('hide');
 
 });
+
+
+   /* ----------------------------------------------------------- */
+   /*  Scroll to next section
+   /* ----------------------------------------------------------- */
+$(document).ready(function() {
+  $(".scrolbot").on("click", function( e ) {
+
+    e.preventDefault();
+
+    $("body, html").animate({ 
+      scrollTop: $( $(this).attr('href') ).offset().top 
+    }, 600);
+
+  });
+});
