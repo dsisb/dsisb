@@ -207,47 +207,47 @@ jQuery(function($) {
    /*  Contact map
    /* ----------------------------------------------------------- */
 
-      $("#map").gmap3({
-        map:{
-            options:{
-               center:[-37.8152065,144.963937],
-               zoom: 14,
-               scrollwheel: false
-            }
-        },
-        marker:{
-          values:[
-            {address:"Corner Swanston St & Flinders St, Melbourne VIC 3000, Australia", data:" Welcome To bizCraft ! ! ", 
-             options:{icon: "http://themewinter.com/html/marker.png"}}
-          ],
-          options:{
-            draggable: false
-          },
-          events:{
-            mouseover: function(marker, event, context){
-              var map = $(this).gmap3("get"),
-                infowindow = $(this).gmap3({get:{name:"infowindow"}});
-              if (infowindow){
-                infowindow.open(map, marker);
-                infowindow.setContent(context.data);
-              } else {
-                $(this).gmap3({
-                  infowindow:{
-                    anchor:marker, 
-                    options:{content: context.data}
-                  }
-                });
-              }
-            },
-            mouseout: function(){
-              var infowindow = $(this).gmap3({get:{name:"infowindow"}});
-              if (infowindow){
-                infowindow.close();
-              }
-            }
-          }
-        }
-      });
+      // $("#map").gmap3({
+      //   map:{
+      //       options:{
+      //          center:[-37.8152065,144.963937],
+      //          zoom: 14,
+      //          scrollwheel: false
+      //       }
+      //   },
+      //   marker:{
+      //     values:[
+      //       {address:"Corner Swanston St & Flinders St, Melbourne VIC 3000, Australia", data:" Welcome To bizCraft ! ! ", 
+      //        options:{icon: "http://themewinter.com/html/marker.png"}}
+      //     ],
+      //     options:{
+      //       draggable: false
+      //     },
+      //     events:{
+      //       mouseover: function(marker, event, context){
+      //         var map = $(this).gmap3("get"),
+      //           infowindow = $(this).gmap3({get:{name:"infowindow"}});
+      //         if (infowindow){
+      //           infowindow.open(map, marker);
+      //           infowindow.setContent(context.data);
+      //         } else {
+      //           $(this).gmap3({
+      //             infowindow:{
+      //               anchor:marker, 
+      //               options:{content: context.data}
+      //             }
+      //           });
+      //         }
+      //       },
+      //       mouseout: function(){
+      //         var infowindow = $(this).gmap3({get:{name:"infowindow"}});
+      //         if (infowindow){
+      //           infowindow.close();
+      //         }
+      //       }
+      //     }
+      //   }
+      // });
 
    /* ----------------------------------------------------------- */
    /* Video background

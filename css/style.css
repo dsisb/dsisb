@@ -599,6 +599,14 @@ blockquote p{
 	border-radius: 0;
 }
 
+.request h3{
+	padding-left: 12px;
+}
+
+.recent h3{
+	padding-left: 25px;
+}
+
 .opt-select select{
 	box-shadow: none;
 	
@@ -611,6 +619,7 @@ blockquote p{
 	border:1px solid rgba(255, 255, 255, .1);
 	width: 100%;
 	outline-color: #ffcc01; 
+	opacity: 1 !important;
 
 }
 
