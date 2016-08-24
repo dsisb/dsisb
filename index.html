@@ -469,7 +469,7 @@ We engage your brand in effective conversations directly with your customers.</p
 								<figcaption>
 									<h3>A renowned painter-printmaker based in the US, in the lineage of American landscape artists</h3>
 									<!-- <a class="link icon-pentagon" href="portfolio-item.html"><i class="fa fa-link"></i></a> -->
-									<a class="view icon-pentagon" href="www.nancyfriesestudio.com" target="_blank"><i class="fa fa-desktop"></i></a>            
+									<a class="view icon-pentagon" href="http://www.nancyfriesestudio.com" target="_blank"><i class="fa fa-desktop"></i></a>            
 								</figcaption>					
 							</figure>
 						</div>
@@ -961,7 +961,43 @@ We engage your brand in effective conversations directly with your customers.</p
 
 <div class="col-md-4 col-sm-12 footer-widget footer-about-us request">
 					<h3 class="widget-title">Request</h3>
-                    <form action="#" role="form">
+
+					<form id="contact" name="contact" method="post" role="form">  
+					
+					<div class="input-group subscribe">  
+						<input type="text" name="name" id="name" value="" class="form-control" placeholder="Your Name" required/>
+						<input type="text" name="email" id="email" value="" class="form-control" placeholder="Email Address" required/>
+
+
+					<div class="opt-select">
+                      	<select required="">
+	                    	<option value="" disabled selected>Select Service</option>
+						  	<option value="socialmedia">Social media</option>
+							<option value="web">Web</option>
+							<option value="design">Design</option>
+							<option value="digitalconsultancy">Digital Consultancy</option>
+						</select>
+					</div>
+					</div>
+					<div class="reqbtn">
+					   	<input class="req-btn" id="submit" type="submit" name="submit" value="Send" />
+					</div>
+
+					</form>
+
+					<div id="success">
+					  <span>
+					    <p>Your message was sent succssfully! I will be in touch as soon as I can.</p>
+					  </span>
+					</div>
+
+					<div id="error">
+					  <span>
+					    <p>Something went wrong, try refreshing and submitting the form again.</p>
+					  </span>
+					</div>
+
+                    <!--<form action="#" role="form">
                         <div class="input-group subscribe">
                         <input type="text" class="form-control" placeholder="Your Name" required="">
                         <input type="email" class="form-control" placeholder="Email Address" required="">
@@ -979,7 +1015,7 @@ We engage your brand in effective conversations directly with your customers.</p
 						</div>
 						</div>
 
-                    </form>
+                    </form>-->
 				</div>
 				<div class="col-md-4 col-sm-12 footer-widget recent">
 					<h3 class="widget-title">Recent Posts</h3>
@@ -1089,6 +1125,11 @@ We engage your brand in effective conversations directly with your customers.</p
 	<!-- Template custom -->
 	<script type="text/javascript" src="js/custom.js"></script>
 	<!-- <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+  	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+  	<script type="text/javascript" src="js/validate.js"></script>
+
 	</div><!-- Body inner end -->
 </body>
 

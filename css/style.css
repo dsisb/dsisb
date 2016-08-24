@@ -3474,3 +3474,47 @@ a.close-styler{
 .style-switch-wrapper #preset6 {
 	background-color: #8C42BA;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Added by Arslan Farooq -- 24 Aug, 2016*/
+
+#success, #error {
+    display:none
+}
+#success span, #erro span {
+    display:block;
+    position:absolute;
+    top:0;
+    width:100%
+}
+#success span p, #error span p {
+    margin-top:6em
+}
+#success span p {
+  color:#9bd32d;
+}
+#error span p {
+  color:#c0392b;
+}
+
